@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    width: 800px;
+    font-family: 'Poppins', sans-serif;
+    /*border-radius: 10px;*/
+    border:1px solid;  
+}
+aside, section {
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+}
+
+aside {
+    width: 300px;    
+    background-color: rgb(23, 117, 101);
+    color: white;
+     }
+
+img {
+    margin-top : 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 3px solid;
+}
+
+.habilidades-aside{
+    width: 250px;
+ }
+
+.contacto ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+section {
+    width: 500px;
+    }
+
+.content {
+    width: 90%;
+}
+
+#portada {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#portada h1 {
+    font-size: 30px;
+}
+
+#portada h4 {
+    margin-top: 5px;
+}
+
+.section-resumen {
+    margin-bottom: 20px;
+}
+
+.section-resumen h4{
+    color: rgb(23, 117, 101);
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-experiencia h4 {
+    margin-top: 15px;
+    color: rgb(23, 117, 101);
+}
+.section-experiencia p {
+font-size: 14px;
+}
+
+.section-experiencia ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.section-experiencia li {
+    margin: 10px 0;
+}
+
+hr {
+    width: 100%;
+}
