@@ -6,7 +6,8 @@ body {
 
 main {
     display: flex;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     font-family: 'Poppins', sans-serif;
     border:1px solid;  
 }
