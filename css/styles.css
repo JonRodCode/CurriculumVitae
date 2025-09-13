@@ -7,7 +7,6 @@ main {
     display: flex;
     width: 800px;
     font-family: 'Poppins', sans-serif;
-    /*border-radius: 10px;*/
     border:1px solid;  
 }
 aside, section {
